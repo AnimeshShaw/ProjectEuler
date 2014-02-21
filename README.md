@@ -1,9 +1,4 @@
 ProjectEuler
 ============
 
-This repo contains the solutions of the problems in Project Euler. Languages used are : Java, Scala, python
-
-### [Project Site] (http://psychocoderhc.github.io/ProjectEuler/)
-
-
-http://psychocoderhc.github.io/ProjectEuler/
+This repo contains the solutions of the problems in Project Euler. Languages used are : Java, Scala, python.
