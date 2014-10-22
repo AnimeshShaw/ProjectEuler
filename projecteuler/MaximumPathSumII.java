@@ -5,4 +5,4 @@ public static int getMaxPathSum() {
             }
         }
         return inputtriangle[0][0];
-    }
+   }
