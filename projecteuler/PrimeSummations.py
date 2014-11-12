@@ -2,13 +2,12 @@ import time
 start = time.time()
 
 def sieve(num):    
-    primes = range(2,num+1)    
-    for i in primes:        
-        j = 2        
-    while i * j <= primes[-1]:            
-            if i * j in primes:
-        primes.remove(i*j)
-        j += 1
+    primes, s = [], [True] * (num + 1)
+    for p in range(2, num + 1):
+        if s[p]:
+           primes.append(p)
+           for i in range(p * p, num + 1, p):
+               s[i] = False
     return primes
 
 primes=sieve(1000)
